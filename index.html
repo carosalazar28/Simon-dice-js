@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Simon Dice</title>
+  </head>
+  <body>
+    <div class="info">
+      <h1>Simon Dice, mi primer juego</h1>
+      <p>Hola, bienvenido a mi primer juego hecho con JavaScript, este juego es parte del aprendizaje de mi curso con Platzi en fundamentos de JavaScript</p>
+    </div>
+    <div class="gameboard">
+      <div class="color celeste left" id="celeste" data-color="celeste"></div>
+      <div class="color violeta right" id="violeta" data-color="violeta"></div>
+      <div class="color naranja left" id="naranja" data-color="naranja"></div>
+      <div class="color verde right" id="verde" data-color="verde"></div>
+      <button type="button" id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="./js/simon.js"></script>
+  </body>
+</html>
