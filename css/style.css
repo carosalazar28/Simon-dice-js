@@ -1,10 +1,14 @@
 body {
   margin: 0;
   background: #dedede;
-  display: flex;
+  display: grid;
   align-items: center;
   height: 100vh;
   font-family: 'Arial';
+}
+
+body section .info {
+  justify-items: center;
 }
 
 .gameboard {
