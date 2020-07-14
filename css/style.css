@@ -8,7 +8,8 @@ body {
 }
 
 body section .info {
-  justify-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .gameboard {
@@ -27,11 +28,22 @@ body section .info {
   display: inline-block;
 }
 
-h1 {
+section .info h1 {
   position: absolute;
   top: 0px;
   margin: 0;
-  color: gray;
+  color: rgb(115, 39, 202);
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #db8bb1;
+}
+
+section .info p {
+  padding: 5px 100px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  margin: 10px auto;
 }
 
 .left {
@@ -81,7 +93,7 @@ h1 {
   color: #2c3e50;
   font-size: 2.5rem;
   position: absolute;
-  top: calc(50% - 50px);
+  top: calc(65% - 50px);
   left: calc(50% - 200px);
 }
 
